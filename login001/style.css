@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.form {
+    background-color: #e5e5e5;
+    width: 480px;
+    padding: 24px 32px;
+    border-radius: 12px;
+}
+
+.form h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.inputForm label {
+    margin-bottom: 10px;
+}
+
+.inputForm input {
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+.inputForm input::placeholder {
+    color:rgba(0, 0, 0, 0.4)
+}
+
+.inputForm i {
+    position: absolute;
+    top: 55%;
+    right: 12px;
+    font-size: 20px;
+    color: #555555;
+}
+
+.rememberPassword {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 12px 0px;
+}
+
+.rememberPassword label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rememberPassword a {
+    text-decoration: none;
+}
+
+.rememberPassword a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.linkRegister {
+    text-align: center;
+}
+
+.linkRegister a {
+    text-decoration: none;
+}
+
+.linkRegister a:hover {
+    text-decoration: underline;
+}
