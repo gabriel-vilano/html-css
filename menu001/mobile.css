@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header nav {
+    justify-content: start;
+}
+
+header > nav > a {
+
+}
