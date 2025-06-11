@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+header {
+    max-width: 1280px;
+    margin: 40px auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 1280px;
+    margin: 20px auto;
+}
+
+article img, article.featured img {
+    width: 100%;
+    border-radius: 8px;
+}
